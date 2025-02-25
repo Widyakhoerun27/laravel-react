@@ -1,6 +1,7 @@
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout';
 import { Head, usePage, Link, router } from '@inertiajs/react';
 
+
 export default function Dashboard(props) {
     const { posts } = usePage().props
     function destroy(e) {
